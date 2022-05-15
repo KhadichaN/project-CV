@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    color: #ffffff;
+}
+
+body {
+    background-image: url(/src/img/web_bg.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left center;
+}
+
+.my_resume {
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 50px 80px;
+    background-color: rgba(123, 123, 123, 0.595);
+}
+
+.about_me {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.about_me .my_photo {
+    width: 300px;
+    margin-left: 25px;
+    margin-right: 80px;
+    /* border-radius: 10%; */
+    box-shadow: 0 0 10px rgba(139, 243, 255, 0.71);
+}
+
+.about_me .info_text h1 {
+    color: rgb(220, 220, 220);
+    display: block;
+    font-size: 4em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.about_me .info_text p {
+    font-weight: 400;
+    display: block;
+}
+
+.about_me .info_text h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about_me .profiles {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_me .profiles_icon {
+    width: 30px;
+}
+
+.hobb_edu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.hobbies ol,
+.education ul {
+    padding-left: 20px;
+}
+
+.hobbies h2,
+.education h2,
+.expirience h2 {
+    padding: 10px 30px;
+    text-align: center;
+    background-color: darkgrey;
+    box-shadow: 0 0 10px rgba(139, 243, 255, 0.71);
+}
+
+.hobbies h2,
+.education h2 {
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.expirience {
+    margin-top: 30px;
+    width: 95%;
+}
+
+.expirience table {
+    margin-top: 30px;
+    text-align: left;
+    width: 100%;
+}
+
+.form {
+    color: #ffffff;
+    display: block;
+    width: 60%;
+    background-color: darkgrey;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px 0;
+    box-shadow: 0 0 10px rgba(139, 243, 255, 0.71);
+}
+
+.form h2 {
+    text-align: center;
+}
+
+
+/* .form input {
+
+} */
+
+.form input,
+.form textarea {
+    margin-left: 32%;
+    padding: 5px 20px;
+    width: 217px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    margin-top: 10px;
+}
+
+.form input:focus,
+.form textarea:focus {
+    border: none;
+    box-shadow: 0 0 2px rgba(139, 243, 255);
+}
+
+.form .btn {
+    background-color: rgb(38, 38, 38);
+}
+
+
+/* box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1); */
+
+
+/* colors  
+rgba(68,68,76,255)
+rgba(117,123,169,255)
+rgba(115,96,93,255)
+#fef8ec
+rgba(235,244,246,255)
+*/
